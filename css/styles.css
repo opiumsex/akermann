@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.content {
+    min-height: 70vh;
+}
+
+.post {
+    background-color: #111;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.post-description {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.download-btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #ddd;
+}
+
+.about-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-text {
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.link-btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.link-btn:hover {
+    background-color: #ddd;
+}
+
+.tabs {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+
+.tab {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 14px;
+}
+
+.tab.active {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
